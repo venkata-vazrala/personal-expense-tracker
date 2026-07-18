@@ -1,9 +1,17 @@
 # Personal Expense Tracker
 
-A personal expense-tracking application, built as part of the Nalaiya Thiran (Naan Mudhalvan / IBM) program, team ID PNT2022TMID16140.
+A personal expense-tracking web application, built as part of the Nalaiya Thiran (Naan Mudhalvan / IBM) program, team ID PNT2022TMID16140.
 
 ## Contents
 
-- `demo-video/` — final demo video walkthrough of the application
+- `code/` - the application source code (submodule → [IBM-Project-6778-1658837124](https://github.com/venkata-vazrala/IBM-Project-6778-1658837124))
+- `completion-certificate.pdf` - program completion certificate
+- Demo video walkthrough - excluded from git for size; see the portfolio media notes
 
-*Note: source code for this project was not found in the local project archive — only the demo video and presentation materials were available. If you have the code elsewhere (e.g. IBM Cloud / a separate machine), it's worth adding here before publishing.*
+## Clone with code
+
+```bash
+git clone --recurse-submodules https://github.com/venkata-vazrala/personal-expense-tracker.git
+# or, if already cloned:
+git submodule update --init
+```
